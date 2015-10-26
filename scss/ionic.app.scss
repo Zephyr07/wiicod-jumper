@@ -15,6 +15,8 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
+$assertive: #FC1200;
+$obstacle-cl:#000;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
@@ -65,9 +67,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   left: 15%;
   text-align: center;
   border-bottom: none;
-  background: red;
+  background: $assertive;
   border-radius: 30px;
-  
+
 }
 
 #joueur img{
@@ -76,8 +78,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 .obstacle{
   bottom:9.4%;
-  background: black;
+  background: $obstacle-cl;
   right: -10px;
+  width: 10px;
 }
 
 .obstacle1{
@@ -88,49 +91,41 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 .obstacle2{
   bottom:18%;
-  width: 10px;
   height: 40px;
 }
 
 .obstacle3{
   bottom:40%;
-  width: 30px;
   height: 40px;
 }
 
 .obstacle4{
   bottom:24%;
-  width: 10px;
   height: 40px;
 }
 
 .obstacle5{
   bottom:28%;
-  width: 10px;
   height: 40px;
 }
 
 .obstacle6{
   bottom:32%;
-  width: 10px;
   height: 40px;
 }
 
 .obstacle7{
   bottom:34%;
-  width: 10px;
   height: 40px;
 }
 
 .obstacle8{
   bottom:10%;
-  width: 10px;
   height: 40px;
 }
 
 .obstacle9{
   bottom:10%;
-  width: 10px;
   height: 40px;
 }
 
