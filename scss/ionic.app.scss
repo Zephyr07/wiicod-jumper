@@ -1,0 +1,151 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+
+
+.no-padding{
+  padding: 0;
+}
+
+.pull-right{
+  float: right;
+}
+
+.hide{
+  display: none;
+}
+
+.score{
+  text-align: right;
+  font-weight: bold;
+
+}
+
+.level{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#bar{
+  bottom: 9.4%;
+  border-top-width: 1px;
+  border-bottom-width: 0px;
+  background-position: center top;
+  height: 2px;
+  padding: 0;
+}
+
+#joueur{
+  bottom:9.4%;
+  max-width: 30px;
+  height: 30px;
+  left: 15%;
+  text-align: center;
+  border-bottom: none;
+  background: red;
+  border-radius: 30px;
+  
+}
+
+#joueur img{
+  width: 170%;
+}
+
+.obstacle{
+  bottom:9.4%;
+  background: black;
+  right: -10px;
+}
+
+.obstacle1{
+  bottom:14%;
+  width: 20px;
+  height: 40px;
+}
+
+.obstacle2{
+  bottom:18%;
+  width: 10px;
+  height: 40px;
+}
+
+.obstacle3{
+  bottom:40%;
+  width: 30px;
+  height: 40px;
+}
+
+.obstacle4{
+  bottom:24%;
+  width: 10px;
+  height: 40px;
+}
+
+.obstacle5{
+  bottom:28%;
+  width: 10px;
+  height: 40px;
+}
+
+.obstacle6{
+  bottom:32%;
+  width: 10px;
+  height: 40px;
+}
+
+.obstacle7{
+  bottom:34%;
+  width: 10px;
+  height: 40px;
+}
+
+.obstacle8{
+  bottom:10%;
+  width: 10px;
+  height: 40px;
+}
+
+.obstacle9{
+  bottom:10%;
+  width: 10px;
+  height: 40px;
+}
+
+.mabar{
+  display: flex;
+  transform: translate3d(0px, 0px, 0px);
+  -moz-user-select: none;
+  position: absolute;
+  right: 0px;
+  z-index: 9;
+  box-sizing: border-box;
+  padding: 5px;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #DDD;
+}
+

@@ -1,0 +1,40 @@
+<ion-view view-title="Index" ng-init="">
+  <ion-header-bar class="bar-positive">
+    <h1 class="title">Jumper </h1>
+    <button class="button button-clear icon ion-pause" ng-click="pause()"></button>
+  </ion-header-bar>
+
+  <ion-content on-touch="jump()" on-release="down()" scroll="false" style="background: url(../img/bg3.png) no-repeat; background-size: cover">
+    <div class="row no-padding">
+      <div class="col">
+        Meilleur Score <span class="score">{{highScore}}</span>
+      </div>
+      <div class="col level">{{level}}</div>
+      <div class="col score"> {{score}}</div>
+    </div>
+
+    <div class="hide">
+      <button class="button button-block positive" ng-click="init()">Start</button>
+    </div>
+
+  </ion-content>
+  <div class="bar" id="joueur">
+  </div>
+  <div class="mabar obstacle" id="obstacle0"></div>
+  <div class="mabar obstacle" id="obstacle1"></div>
+  <div class="mabar obstacle" id="obstacle2"></div>
+  <div class="mabar obstacle" id="obstacle3"></div>
+  <div class="mabar obstacle" id="obstacle4"></div>
+  <div class="mabar obstacle" id="obstacle5"></div>
+  <div class="mabar obstacle" id="obstacle6"></div>
+  <div class="mabar obstacle" id="obstacle7"></div>
+  <div class="mabar obstacle" id="obstacle8"></div>
+  <div class="mabar obstacle" id="obstacle9"></div>
+
+
+  <div id="bar" class="bar assertive-bg"></div>
+  <div class="bar bar-footer bar-balanced">
+    <div class="title">Footer</div>
+  </div>
+
+</ion-view>
